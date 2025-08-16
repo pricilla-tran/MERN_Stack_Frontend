@@ -98,7 +98,7 @@ const DashHeader = () => {
     }
 
     const logoutButton = (
-        <Link to="/login">
+        <Link to="/">
             <button
                 className="icon-button"
                 title="Logout"
@@ -133,7 +133,7 @@ const DashHeader = () => {
             <header className="dash-header">
                 <div className={`dash-header__container ${dashClass}`}>
                     <Link to="/dash">
-                        <h1 className="dash-header__title">techNotes</h1>
+                        <h1 className="dash-header__title">LovegoodNotes</h1>
                     </Link>
                     <nav className="dash-header__nav">
                         {buttonContent}
